@@ -1,0 +1,8 @@
+sources:
+  - name: jaffle_shop
+    database: jaffle-shop-485109
+    schema: my_analytics
+    tables:
+      - name: customers
+      - name: orders
+      # - name: payment
