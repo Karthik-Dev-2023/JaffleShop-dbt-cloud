@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: dbt-tutorial      # source project
+    schema: jaffle_shop          # source dataset
+    tables:
+      - name: customers
+      - name: orders
+
+  - name: stripe
+    database: dbt-tutorial      # source project
+    schema: stripe               # source dataset
+    tables:
+      - name: payment

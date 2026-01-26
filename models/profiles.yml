@@ -1,0 +1,11 @@
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account        # or oauth
+      project: jaffle-shop-485109   # your project
+      dataset: my_analytics         # the dataset where dbt will create models
+      location: US                  # must match your dataset location
+      threads: 1
+      keyfile: /path/to/service-account.json   # if using service account
