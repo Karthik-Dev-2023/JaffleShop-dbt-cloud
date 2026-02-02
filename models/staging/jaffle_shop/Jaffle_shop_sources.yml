@@ -1,7 +1,7 @@
 sources:
   - name: jaffle_shop
-    database: jaffle-shop-485109
-    schema: my_analytics
+    database: dbt-tutorial
+    schema: jaffle_shop
     config: 
           freshness:
             warn_after:
@@ -15,5 +15,6 @@ sources:
       - name: customers
         freshness: null
       - name: orders
+        freshness: null
       - name: payment
         freshness: null
