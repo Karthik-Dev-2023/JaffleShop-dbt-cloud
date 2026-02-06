@@ -10,4 +10,4 @@ One of the following values:
 | return pending | Customer indicated they want to return this item |
 | returned       | Item has been returned                           |
 
-{% enddoc %}
+{% enddocs %}
