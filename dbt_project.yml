@@ -42,4 +42,4 @@ models:
       +materialized: view
 
     marts:
-    +materialized: table
+      +materialized: table
